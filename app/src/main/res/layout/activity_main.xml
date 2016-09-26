@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/ok"
+    android:padding="120dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tOutput"
+        android:text="Motion Values"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/xText"
+        android:text="x"
+        android:singleLine="true"
+        android:layout_below="@+id/tOutput"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yText"
+        android:text="y"
+        android:singleLine="true"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/xText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:id="@+id/zText"
+        android:text="z"
+        android:singleLine="true"
+        android:layout_below="@+id/yText"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:singleLine="false"
+        android:layout_height="wrap_content"
+        android:text="Incident time"
+        android:id="@+id/result"
+        android:layout_below="@+id/zText"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        />
+
+</RelativeLayout>
